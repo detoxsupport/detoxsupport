@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 15px 100vh rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.social-button i {
+    margin-right: 10px;
+}
+
+.social-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    background-color: #25D366; /* WhatsApp green color */
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Darker green on hover */
+}
+
+/* Discord Button */
+.discord-btn {
+    margin-top: 10px;
+    background-color: #08a815;
+}
+
+.discord-btn:hover {
+    background-color: #057c0f;
+}
+
+/* YouTube Button */
+.youtube-btn {
+    background-color: #ff0000;
+}
+
+.youtube-btn:hover {
+    background-color: #cc0000;
+}
+
+/* TikTok Button */
+.tiktok-btn {
+    background-color: #000000;
+}
+
+.tiktok-btn:hover {
+    background-color: #1d1d1d;
+}
+
+/* Instagram Button */
+.instagram-btn {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.instagram-btn:hover {
+    background-color: #9e135a;
+}
+
+/* Snapchat Button */
+.snapchat-btn {
+    background-color: #fffc00;
+    color: #000;
+}
+
+.snapchat-btn:hover {
+    background-color: #e6e400;
+}
+
+.vager-img {
+    border-radius: 500px;
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 15px 100vh rgba(0, 0, 0, 0.2);
+}
+
+.footer-1 {
+    color: rgba(255, 255, 255, 0.808);
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(245, 245, 245);
+}
